@@ -42,7 +42,8 @@ mongoose
 
         // Start the server
         app.listen(PORT, () => {
-            console.log(`Server running at ${PORT}`);
+            console.log(`Server is running on port ${PORT}`);
+            
         });
     })
     .catch((error) => {
